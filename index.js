@@ -3,7 +3,7 @@ const env = require("dotenv");
 const cors = require("cors");
 const todoRouter = require("./routes/todoRouter");
 const app = express();
-const port = process.env.Port || 5000;
+const port = process.env.PORT || 5000;
 
 //middle ware
 env.config();
